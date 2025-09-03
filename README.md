@@ -1,2 +1,2 @@
 # figma-site
-Κατασκευή ιστοσελίδας με χρήση Tailwind CSS και Javascript από αρχείο Figma.
+Κατασκευή ιστοσελίδας με χρήση HTML, Tailwind CSS και Javascript από αρχείο Figma.
