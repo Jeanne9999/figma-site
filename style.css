@@ -1,0 +1,199 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: ZonaPro;
+  src: url("./fonts/ZonaPro-Regular.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: ZonaPro;
+  src: url("./fonts/ZonaPro-Bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: ZonaPro;
+  src: url("./fonts/ZonaPro-Light.otf");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Oriya-MN;
+  src: url("./fonts/Oriya-MN-Bold.otf");
+  font-weight: bold;
+}
+
+@theme {
+  --font-custom: "ZonaPro", "sans-serif";
+
+  --color-blue: #0babce;
+  --color-blue-light: #0898b8;
+  --color-gray: #58585a;
+  --color-gray-light: #EEEEEE;
+  --color-gray-lighter: #717172;
+  --color-gray-dark: #E6E6E6;
+  --color-gray-5: #C5C5C5;
+
+  --background-image-banner-mobile: url("./images/banner-mobile.png");
+  --background-image-banner: url("./images/banner.png");
+  --background-image-section-1: url("./images/1.png");
+  --background-image-section-2: url("./images/2.png");
+  --background-image-section-3: url("./images/3.png");
+  --background-image-section-4: url("./images/bar.png");
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.gradient {
+  background: linear-gradient(90deg, rgba(238, 238, 238, 1) 50%, rgba(230, 230, 230, 1) 50%);
+}
+
+
+/* Mobile */
+.content h2 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 16px;
+  color: #58585a;
+}
+
+.content h2 span {
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 16px;
+  color: #58585a;
+}
+
+.content p {
+  font-weight: light;
+  font-size: 14px;
+  line-height: 20px;
+  color: #58585a;
+  padding: 5px 0 0 0;
+}
+
+.h4-title {
+  font-size: 16px;
+  line-height: 16px;
+  color: white;
+}
+
+
+.principles p {
+  padding top: -10px;
+  /* transform: translateY(30px); */
+}
+
+.blue-line hr {
+  border-top: 1px solid #0898b8bd;
+  width: 75%;
+  padding: 6px 0 0 0;
+}
+
+
+@media (min-width: 640px) {
+  .content h2 {
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 18px;
+    color: #58585a;
+  }
+
+  .content h2 span {
+    font-weight: 100;
+    font-size: 19px;
+    line-height: 18px;
+    color: #58585a;
+  }
+
+  .content p {
+    font-weight: light;
+    font-size: 15px;
+    line-height: 20px;
+    color: #58585a;
+    padding: 11px 0 0 0;
+  }
+
+  .content p span {
+    font-family: Oriya-MN;
+    color: #0baace20;
+  }
+
+  .h4-title {
+    font-size: 19px;
+    line-height: 20px;
+    color: white;
+  }
+
+  .principles h2 {
+    justify-self: start;
+  }
+
+
+  }
+
+
+
+/* -----768px----- */
+@media (min-width: 768px) {
+  .content h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 18px;
+    color: #58585a;
+  }
+
+  .content h2 span {
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 18px;
+    color: #58585a;
+  }
+
+  .content p {
+    font-weight: light;
+    font-size: 15px;
+    line-height: 22px;
+    color: #58585a;
+    padding: 11px 0 0 0;
+  }
+
+  .content p span {
+    font-family: Oriya-MN;
+    color: #0baace20;
+
+  }
+
+  .h4-title {
+    font-size: 20px;
+    line-height: 22px;
+    color: white;
+  }
+
+  .blue-line hr {
+    border-top: 1px solid #0898b8bd;
+    width: 300px;
+    padding: 6px 0 0 0;
+  }
+
+}
+
+
+/* -----Menu----- */
+.menu>li {
+  position: relative;
+}
+
+.menu>li>a {
+  display: block;
+}
+
+.menu>li>a:hover {
+  color: white;
+  background-color: #0898B8;
+}
+
