@@ -8,6 +8,15 @@
 
 ---
 
+## 🎨 Figma Design
+Ακολουθεί ένα στιγμιότυπο από το αρχικό design στο Figma:  
+
+![Figma Preview](./images/figma-preview.png)
+
+👉 [Δείτε το αρχικό design στο Figma]([https://www.figma.com/file/xxxxx/your-design-link](https://www.figma.com/design/InDP3E4UiOlVpkK3CpgBCm/CodearenaDesignEdit?node-id=0-1&p=f&t=PXGbgPZt6EQSIlW9-0)  
+
+---
+
 ## 🔗 Live Preview
 [Δείτε το site εδώ](https://jeanne9999.github.io/figma-site/)
 
