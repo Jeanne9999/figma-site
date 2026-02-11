@@ -189,7 +189,8 @@
 }
 
 .menu>li>a {
-  display: block;
+  display: absolute;
+  z-index: 500;
 }
 
 .menu>li>a:hover {
