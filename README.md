@@ -13,7 +13,7 @@
 
 ![Figma Preview](./images/figma-preview.png)
 
-👉 [Δείτε το αρχικό design στο Figma] (https://www.figma.com/design/InDP3E4UiOlVpkK3CpgBCm/CodearenaDesignEdit?node-id=0-1&p=f&t=PXGbgPZt6EQSIlW9-0)  
+👉 [Δείτε το αρχικό design στο Figma] ([https://www.figma.com/design/InDP3E4UiOlVpkK3CpgBCm/CodearenaDesignEdit](https://www.figma.com/design/InDP3E4UiOlVpkK3CpgBCm/CodearenaDesignEdit?node-id=0-1&p=f&t=PXGbgPZt6EQSIlW9-0)) 
 
 ---
 
