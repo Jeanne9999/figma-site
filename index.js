@@ -36,10 +36,10 @@ const mainMenuDropdown = document.getElementById("main-menu-dropdown");
 menuButton.addEventListener("click", () => {
     const animationDurationM = 400;
 
-    const isHiddenΜ = mainMenuDropdown.classList.contains("hidden");
+    const isHiddenM = mainMenuDropdown.classList.contains("hidden");
 
     // Search for: Ternary operators instead of 'if else'
-    let timeout = isHiddenΜ ? 0 : animationDurationM;
+    let timeout = isHiddenM ? 0 : animationDurationM;
 
     setTimeout(() => {
         mainMenuDropdown.classList.toggle("hidden");
