@@ -2,470 +2,474 @@
 <html>
 
 <head class="flex">
-  <title>
-    <h1>ΠΑΝΑΓΙΩΤΗΣ ΝΟΜΙΚΟΣ</h1>
-  </title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="./output.css" rel="stylesheet" />
+    <title>
+        <h1>ΠΑΝΑΓΙΩΤΗΣ ΝΟΜΙΚΟΣ</h1>
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="./output.css" rel="stylesheet"/>
 </head>
 
 <body class="font-custom m-0">
-  <header>
+<header>
     <div class="py-5 justify-center flex relative max-w-[980px] mx-auto">
-      <div class="branding">
-        <img src="./images/logo.png" alt="Λογότυπο Παναγιώτη Νομικού" />
-      </div>
-      <div class="flex absolute bottom-0 right-0 gap-12">
-        <p class="text-xs text-gray-5 invisible sm:visible">Αναζήτηση</p>
-        <img src="./images/search_black.png" alt="search" />
-      </div>
+        <div class="branding">
+            <img src="./images/logo.png" alt="Λογότυπο Παναγιώτη Νομικού"/>
+        </div>
+        <div class="flex absolute bottom-0 right-0 gap-12">
+            <p class="text-xs text-gray-5 invisible sm:visible">Αναζήτηση</p>
+            <img src="./images/search_black.png" alt="search"/>
+        </div>
     </div>
-  </header>
+</header>
 
-  <nav class="sm:hidden border-y border-t-blue border-b-gray-light py-4">
+<nav class="sm:hidden border-y border-t-blue border-b-gray-light py-4">
     <div class="flex items-center justify-between px-4">
-      <div class="text-gray font-bold text-lg">Menu</div>
-      <button id="mobile-menu-button" class="text-gray focus:outline-none">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            d="M4 6h16M4 12h16M4 18h16"></path>
-        </svg>
-      </button>
+        <div class="text-gray font-bold text-lg">Menu</div>
+        <button id="mobile-menu-button" class="text-gray focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
     </div>
     <div id="mobile-menu" class="block flex-col px-4 pt-4 space-y-2 text-gray font-bold text-sm">
-      <a class="block py-2" href="#"> ΒΙΟΓΡΑΦΙΚΟ </a>
-      <a class="block py-2" href="#"> ΧΕΙΡΟΥΡΓΙΚΗ ΕΓΚΕΦΑΛΟΥ </a>
-      <a class="block py-2" href="#"> ΧΕΙΡΟΥΡΓΙΚΗ ΣΠΟΝΔΥΛΙΚΗΣ ΣΤΗΛΗΣ </a>
-      <a class="block py-2" href="#"> ΑΚΤΙΝΟΧΕΙΡΟΥΡΓΙΚΗ Γ-KNIFE </a>
-      <a class="block py-2" href="#"> ΕΠΙΚΟΙΝΩΝΙΑ </a>
+        <a class="block py-2" href="#"> ΒΙΟΓΡΑΦΙΚΟ </a>
+        <a class="block py-2" href="#"> ΧΕΙΡΟΥΡΓΙΚΗ ΕΓΚΕΦΑΛΟΥ </a>
+        <a class="block py-2" href="#"> ΧΕΙΡΟΥΡΓΙΚΗ ΣΠΟΝΔΥΛΙΚΗΣ ΣΤΗΛΗΣ </a>
+        <a class="block py-2" href="#"> ΑΚΤΙΝΟΧΕΙΡΟΥΡΓΙΚΗ Γ-KNIFE </a>
+        <a class="block py-2" href="#"> ΕΠΙΚΟΙΝΩΝΙΑ </a>
     </div>
-  </nav>
+</nav>
 
-  <nav id="main-menu" class="hidden sm:block border-y border-t-blue border-b-gray-light">
+<nav id="main-menu" class="hidden sm:block border-y border-t-blue border-b-gray-light">
     <div class="max-w-[980px] mx-auto">
-      <ul class="menu flex justify-between text-gray font-bold text-sm gap-3">
-        <li>
-          <a class="py-6 block" href="#">ΒΙΟΓΡΑΦΙΚΟ</a>
-        </li>
-        <li id="menu-brain-surgery">
-          <a class="py-6 block text-center" href="#">ΧΕΙΡΟΥΡΓΙΚΗ ΕΓΚΕΦΑΛΟΥ</a>
-          <div id="main-menu-dropdown" class="block flex-col space-y-2 text-gray font-thin text-sm hidden">
-            <a class="block py-1" href="#"> Χειρουργικές Τεχνικές </a>
-            <hr class="border-t border-blue" />
-            <a class="block py-1" href="#"> Όγκοι Εγκεφάλου </a>
-            <hr class="border-t border-blue">
-            <a class="block py-1" href="#"> Υδροκέφαλος </a>
-            <hr class="border-t border-blue">
-            <a class="block py-1" href="#"> Αγγειακές Παθήσεις </a>
-            <hr class="border-t border-blue">
-            <a class="block py-1" href="#"> Λειτουργική Νευροχειρουργική </a>
-            <hr class="border-t border-blue">
-            <a class="block py-1" href="#"> Κακώσεις </a>
-            <hr class="border-t border-blue">
-            <a class="block py-1" href="#"> Νέες τεχνικές </a>
-            <hr class="border-t border-blue">
-          </div>
-        </li>
-        <li>
-          <a class="py-6 block" href="#">ΧΕΙΡΟΥΡΓΙΚΗ ΣΠΟΝΔΥΛΙΚΗΣ ΣΤΗΛΗΣ</a>
-        </li>
-        <li>
-          <a class="py-6 block" href="#">ΑΚΤΙΝΟΧΕΙΡΟΥΡΓΙΚΗ Γ-KNIFE</a>
-        </li>
-        <li>
-          <a class="py-6 block" href="#">ΕΠΙΚΟΙΝΩΝΙΑ</a>
-        </li>
-      </ul>
+        <ul class="menu flex justify-between text-gray font-bold text-sm gap-3">
+            <li>
+                <a class="py-6 block" href="#">ΒΙΟΓΡΑΦΙΚΟ</a>
+            </li>
+            <li id="menu-brain-surgery">
+                <a class="py-6 block text-center" href="#">ΧΕΙΡΟΥΡΓΙΚΗ ΕΓΚΕΦΑΛΟΥ</a>
+                <div id="main-menu-dropdown" class="block flex-col space-y-2 text-gray font-thin text-sm hidden">
+                    <a class="block py-1" href="#"> Χειρουργικές Τεχνικές </a>
+                    <hr class="border-t border-blue"/>
+                    <a class="block py-1" href="#"> Όγκοι Εγκεφάλου </a>
+                    <hr class="border-t border-blue">
+                    <a class="block py-1" href="#"> Υδροκέφαλος </a>
+                    <hr class="border-t border-blue">
+                    <a class="block py-1" href="#"> Αγγειακές Παθήσεις </a>
+                    <hr class="border-t border-blue">
+                    <a class="block py-1" href="#"> Λειτουργική Νευροχειρουργική </a>
+                    <hr class="border-t border-blue">
+                    <a class="block py-1" href="#"> Κακώσεις </a>
+                    <hr class="border-t border-blue">
+                    <a class="block py-1" href="#"> Νέες τεχνικές </a>
+                    <hr class="border-t border-blue">
+                </div>
+            </li>
+            <li>
+                <a class="py-6 block" href="#">ΧΕΙΡΟΥΡΓΙΚΗ ΣΠΟΝΔΥΛΙΚΗΣ ΣΤΗΛΗΣ</a>
+            </li>
+            <li>
+                <a class="py-6 block" href="#">ΑΚΤΙΝΟΧΕΙΡΟΥΡΓΙΚΗ Γ-KNIFE</a>
+            </li>
+            <li>
+                <a class="py-6 block" href="#">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+            </li>
+        </ul>
     </div>
 
-  </nav>
+</nav>
 
-  <section id="hero"
-    class="relative bg-[#f7f7f7] after:content-[''] after:absolute after:right-0 after:top-0 after:h-full after:w-full after:bg-[#e0e4e7] after:z-10">
+<section id="hero"
+         class="relative bg-[#f7f7f7] after:content-[''] after:absolute after:right-0 after:top-0 after:h-full after:w-full after:bg-[#e0e4e7] after:z-10">
     <div
-      class="bg-banner-mobile sm:bg-banner bg-center bg-top bg-no-repeat w-full mx-auto sm:max-w-[980px] h-[391px] relative z-20">
-      <div class="max-w-[980px] mx-auto flex justify-end items-center h-full pr-4 sm:pr-0">
-        <div class="w-[300px] sm:w-[470px] text-gray text-right sm:text-start">
-          <h1 class="font-bold text-lg sm:text-2xl">
-            Δρ. Παναγιώτης Νομικός
-            <span class="font-thin">Νευροχειρουργός</span>
-          </h1>
-          <p class="font-thin text-sm sm:text-lg leading-6 mt-2.5">
-            Περιηγηθείτε στις σελίδες και ενημερωθείτε για θέματα
-            νευροχειρουργικής.
-          </p>
-          <p class="font-thin text-sm sm:text-lg leading-6 mt-2.5">
-            Για οποιεσδήποτε απορίες σας περιμένουμε να επικοινωνήσετε μαζί
-            μας.
-          </p>
-          <div class="sm:flex gap-2.5 mt-6 sm:mt-4 text-xs">
-            <button
-              class="mb-2 sm:mb-0 flex gap-2 items-center bg-blue-light px-4 sm:px-5 py-2 sm:py-2.5 place-self-end">
-              <a href="#" class="text-white font-thin">ΠΕΡΙΣΣΟΤΕΡΑ</a>
-              <img src="./images/arrow.png" alt="arrow" />
-            </button>
-            <button
-              class="flex gap-2 items-center bg-blue-light px-4 sm:px-5 py-2 sm:py-2.5 place-self-end">
-              <a href="#" class="text-white font-thin">ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΑΖΙ ΜΑΣ</a>
-              <img src="./images/arrow.png" alt="arrow" />
-            </button>
-          </div>
+            class="bg-banner-mobile sm:bg-banner bg-center bg-top bg-no-repeat w-full mx-auto sm:max-w-[980px] h-[391px] relative z-20">
+        <div class="max-w-[980px] mx-auto flex justify-end items-center h-full pr-4 sm:pr-0">
+            <div class="w-[300px] sm:w-[470px] text-gray text-right sm:text-start">
+                <h1 class="font-bold text-lg sm:text-2xl">
+                    Δρ. Παναγιώτης Νομικός
+                    <span class="font-thin">Νευροχειρουργός</span>
+                </h1>
+                <p class="font-thin text-sm sm:text-lg leading-6 mt-2.5">
+                    Περιηγηθείτε στις σελίδες και ενημερωθείτε για θέματα
+                    νευροχειρουργικής.
+                </p>
+                <p class="font-thin text-sm sm:text-lg leading-6 mt-2.5">
+                    Για οποιεσδήποτε απορίες σας περιμένουμε να επικοινωνήσετε μαζί
+                    μας.
+                </p>
+                <div class="sm:flex gap-2.5 mt-6 sm:mt-4 text-xs">
+                    <button
+                            class="mb-2 sm:mb-0 flex gap-2 items-center bg-blue-light px-4 sm:px-5 py-2 sm:py-2.5 place-self-end">
+                        <a href="#" class="text-white font-thin">ΠΕΡΙΣΣΟΤΕΡΑ</a>
+                        <img src="./images/arrow.png" alt="arrow"/>
+                    </button>
+                    <button
+                            class="flex gap-2 items-center bg-blue-light px-4 sm:px-5 py-2 sm:py-2.5 place-self-end">
+                        <a href="#" class="text-white font-thin">ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΑΖΙ ΜΑΣ</a>
+                        <img src="./images/arrow.png" alt="arrow"/>
+                    </button>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </section>
+</section>
 
-  <section id="services" class="flex items-center bg-gray-light h-[282px]">
-    <img src="./images/left-arrow.svg" alt="arrow" id="prev-service" class="md:hidden h-20" />
+<section id="services" class="flex items-center bg-gray-light h-[282px]">
+    <img src="./images/left-arrow.svg" alt="arrow" id="prev-service" class="md:hidden h-20"/>
 
     <div id="slider-services"
-      class="flex gap-5 max-w-[980px] py-10 px-4 mx-auto sm:gap-10 sm:px-0 overflow-hidden">
+         class="flex gap-5 max-w-[980px] py-10 px-4 mx-auto sm:gap-10 sm:px-0 overflow-hidden">
 
-      <div
-        class="flex-none bg-[url('./images/1.png')] bg-center bg-no-repeat h-[200px] w-[300px] relative">
         <div
-          class="flex bg-blue-light px-5 pt-3.5 pb-3 justify-between items-end absolute bottom-4 w-full">
-          <h1 class="text-white font-bold text-lg leading-[18px]">
-            ΧΕΙΡΟΥΡΓΙΚΗ<br /><span class="font-thin">ΕΓΚΕΦΑΛΟΥ</span>
-          </h1>
-          <img src="./images/arrow.png" alt="arrow" />
+                class="flex-none bg-[url('./images/1.png')] bg-center bg-no-repeat h-[200px] w-[300px] relative">
+            <div
+                    class="flex bg-blue-light px-5 pt-3.5 pb-3 justify-between items-end absolute bottom-4 w-full">
+                <h1 class="text-white font-bold text-lg leading-[18px]">
+                    ΧΕΙΡΟΥΡΓΙΚΗ<br/><span class="font-thin">ΕΓΚΕΦΑΛΟΥ</span>
+                </h1>
+                <img src="./images/arrow.png" alt="arrow"/>
+            </div>
         </div>
-      </div>
-      <div
-        class="flex-none bg-[url('./images/2.png')] bg-center bg-no-repeat h-[200px] w-[300px] relative">
         <div
-          class="flex bg-blue-light px-5 pt-3.5 pb-3 justify-between items-end absolute bottom-4 w-full">
-          <h1 class="text-white font-bold text-lg leading-[18px]">
-            ΧΕΙΡΟΥΡΓΙΚΗ<br /><span class="font-thin">ΣΠΟΝΔΥΛΙΚΗΣ ΣΤΗΛΗΣ</span>
-          </h1>
-          <img src="./images/arrow.png" alt="arrow" />
+                class="flex-none bg-[url('./images/2.png')] bg-center bg-no-repeat h-[200px] w-[300px] relative">
+            <div
+                    class="flex bg-blue-light px-5 pt-3.5 pb-3 justify-between items-end absolute bottom-4 w-full">
+                <h1 class="text-white font-bold text-lg leading-[18px]">
+                    ΧΕΙΡΟΥΡΓΙΚΗ<br/><span class="font-thin">ΣΠΟΝΔΥΛΙΚΗΣ ΣΤΗΛΗΣ</span>
+                </h1>
+                <img src="./images/arrow.png" alt="arrow"/>
+            </div>
         </div>
-      </div>
-      <div
-        class="flex-none bg-[url('./images/3.png')] bg-center bg-no-repeat h-[200px] w-[300px] relative">
         <div
-          class="flex bg-blue-light px-5 pt-3.5 pb-3 justify-between items-end absolute bottom-4 w-full">
-          <h1 class="text-white font-bold text-lg leading-[18px]">
-            ΑΚΤΙΝΟΧΕΙΡΟΥΡΓΙΚΗ<br /><span class="font-thin">Γ-KNIFE</span>
-          </h1>
-          <img src="./images/arrow.png" alt="arrow" />
-        </div>
+                class="flex-none bg-[url('./images/3.png')] bg-center bg-no-repeat h-[200px] w-[300px] relative">
+            <div
+                    class="flex bg-blue-light px-5 pt-3.5 pb-3 justify-between items-end absolute bottom-4 w-full">
+                <h1 class="text-white font-bold text-lg leading-[18px]">
+                    ΑΚΤΙΝΟΧΕΙΡΟΥΡΓΙΚΗ<br/><span class="font-thin">Γ-KNIFE</span>
+                </h1>
+                <img src="./images/arrow.png" alt="arrow"/>
+            </div>
 
-      </div>
+        </div>
 
     </div>
-    <img src="./images/right-arrow.svg" alt="arrow" class=" md:hidden h-20" id="next-service" />
-  </section>
+    <img src="./images/right-arrow.svg" alt="arrow" class=" md:hidden h-20" id="next-service"/>
+</section>
 
-  <section id="principles">
+<section id="principles">
     <div class="max-w-[980px] mx-auto pt-24.5">
-      <hr class="invisible sm:visible border-t border-blue" />
-      <div
-        class="grid grid-cols-1 sm:grid-cols-3 transform -translate-y-16 text-gray gap-7 relative content">
+        <hr class="invisible sm:visible border-t border-blue"/>
+        <div
+                class="grid grid-cols-1 sm:grid-cols-3 transform -translate-y-16 text-gray gap-7 relative content">
 
-        <div id="purpose" class="text-center sm:text-left">
-          <img class="justify-self-start pl-5 sm:pl-0 sm:justify-self-end md:pr-5"
-            src="./images/icon_purpose.png" alt="ΣΚΟΠΟΣ" />
-          <hr
-            class="visible sm:invisible border-t border-blue w-1/3 justify-self-center transform -translate-y-[55px]" />
-          <h2 class="transform -translate-y-6">ΣΚΟΠΟΣ</h2>
-          <p>Η καλύτερη πληροφόρηση για την πλήρη κατανόηση της φύσης της ασθένειας από τον ασθενή
-            αλλά και τους οικείους του, με σκοπό τη συμμετοχή όλων στη διαδικασία επιλογής της
-            κατάλληλης θεραπείας, προκείμενου να επιτευχθεί το επιθυμητό αποτέλεσμα.</p>
-        </div>
+            <div id="purpose" class="text-center sm:text-left">
+                <img class="justify-self-start pl-5 sm:pl-0 sm:justify-self-end md:pr-5"
+                     src="./images/icon_purpose.png" alt="ΣΚΟΠΟΣ"/>
+                <hr
+                        class="visible sm:invisible border-t border-blue w-1/3 justify-self-center transform -translate-y-[55px]"/>
+                <h2 class="transform -translate-y-6">ΣΚΟΠΟΣ</h2>
+                <p>Η καλύτερη πληροφόρηση για την πλήρη κατανόηση της φύσης της ασθένειας από τον ασθενή
+                    αλλά και τους οικείους του, με σκοπό τη συμμετοχή όλων στη διαδικασία επιλογής της
+                    κατάλληλης θεραπείας, προκείμενου να επιτευχθεί το επιθυμητό αποτέλεσμα.</p>
+            </div>
 
-        <div id="philosophy" class="text-center sm:text-left">
-          <img class="justify-self-start pl-5 sm:pl-0 sm:justify-self-end md:pr-5"
-            src="./images/icon_philosophy.png" alt="ΦΙΛΟΣΟΦΙΑ" />
-          <hr
-            class="visible sm:invisible border-t border-blue w-1/3 justify-self-center transform -translate-y-[55px]" />
-          <h2 class="transform -translate-y-6">ΦΙΛΟΣΟΦΙΑ</h2>
-          <p>Κάθε ασθενής είναι ξεχωριστός και ο τρόπος αντιμετώπισης της ασθένειάς του πρέπει να
-            εξατομικεύεται συνδυάζοντας όλες τις νέες εξελίξεις και τεχνολογίες, που προσφέρονται
-            στον τομέα της νευροχειρουγικής.</p>
-        </div>
+            <div id="philosophy" class="text-center sm:text-left">
+                <img class="justify-self-start pl-5 sm:pl-0 sm:justify-self-end md:pr-5"
+                     src="./images/icon_philosophy.png" alt="ΦΙΛΟΣΟΦΙΑ"/>
+                <hr
+                        class="visible sm:invisible border-t border-blue w-1/3 justify-self-center transform -translate-y-[55px]"/>
+                <h2 class="transform -translate-y-6">ΦΙΛΟΣΟΦΙΑ</h2>
+                <p>Κάθε ασθενής είναι ξεχωριστός και ο τρόπος αντιμετώπισης της ασθένειάς του πρέπει να
+                    εξατομικεύεται συνδυάζοντας όλες τις νέες εξελίξεις και τεχνολογίες, που προσφέρονται
+                    στον τομέα της νευροχειρουγικής.</p>
+            </div>
 
-        <div id="specialization" class="text-center sm:text-left">
-          <img class="justify-self-start pl-5 sm:pl-0 sm:justify-self-end md:pr-5"
-            src="./images/icon_specialization.png" alt="ΕΞΕΙΔΙΚΕΥΣΗ" />
-          <hr
-            class="visible sm:invisible border-t border-blue w-1/3 justify-self-center transform -translate-y-[55px]" />
-          <h2 class="transform -translate-y-6">ΕΞΕΙΔΙΚΕΥΣΗ</h2>
-          <p>Χειρουργική βάσεως κρανίου, Όγκοι εγκεφάλου και σπονδυλικής στήλης, Διασφηνοειδικές
-            επεμβάσεις όγκων υποφύσεως, Χειρουργική σπονδυλικής στήλης, Ελάχιστα επεμβατικές
-            τεχνικές, Νευροπλοήγηση, Νευροενδοσκόπηση, Λειτουργική Νευροχειρουργική,
-            Ακτινοχειρουργική γ-knife.</p>
+            <div id="specialization" class="text-center sm:text-left">
+                <img class="justify-self-start pl-5 sm:pl-0 sm:justify-self-end md:pr-5"
+                     src="./images/icon_specialization.png" alt="ΕΞΕΙΔΙΚΕΥΣΗ"/>
+                <hr
+                        class="visible sm:invisible border-t border-blue w-1/3 justify-self-center transform -translate-y-[55px]"/>
+                <h2 class="transform -translate-y-6">ΕΞΕΙΔΙΚΕΥΣΗ</h2>
+                <p>Χειρουργική βάσεως κρανίου, Όγκοι εγκεφάλου και σπονδυλικής στήλης, Διασφηνοειδικές
+                    επεμβάσεις όγκων υποφύσεως, Χειρουργική σπονδυλικής στήλης, Ελάχιστα επεμβατικές
+                    τεχνικές, Νευροπλοήγηση, Νευροενδοσκόπηση, Λειτουργική Νευροχειρουργική,
+                    Ακτινοχειρουργική γ-knife.</p>
+            </div>
         </div>
-      </div>
     </div>
-  </section>
+</section>
 
 
-  <section id="testimonials-mobile" class="sm:hidden flex gradient items-center">
-    <img src="./images/left-arrow.svg" alt="arrow" id="prev-testimonial" class="h-20" />
+<section id="testimonials-mobile" class="sm:hidden flex gradient items-center">
+    <img src="./images/left-arrow.svg" alt="arrow" id="prev-testimonial" class="h-20"/>
 
     <div id="slider-testimonials" class="flex overflow-hidden">
 
-      <div class="flex-none bg-gray-light pt-9 pb-10 relative content w-full">
-        <h2>ΟΙ ΑΣΘΕΝΕΙΣ ΜΑΣ <span>ΕΙΠΑΝ</span></h2>
-        <p class="absolute mr-7"><span
-            class="hidden absolute left-[-84px] top-15 font-bold text-[139px]">“</span>Ένα μεγάλο
-          ευχαριστώ είναι ίσως λίγο για να εκφράσει την ευγνωμοσύνη που νιώθω για τον γιατρό μου Κο
-          Π. Νομικό. Το Σεπτέμβριο του 2009 ανακάλυψα ότι είχα έναν όγκο στον εγκέφαλο.<br>
-          Μετά το αρχικό σοκ, επισκεφτήκαμε με τον σύζυγο μου αρκετούς νευροχειρούργους σε Αθήνα και
-          Θεσσαλονίκη. Πήραμε επίσης γνώμες από δύο γιατρούς του εξωτερικού [...]
-          <br><b>--Ρουθ Π., Αθήνα.</b>
-        </p>
-        <div class="flex gap-10 pt-75">
-          <img src="./images/vector_blk left.png" />
-          <img src="./images/vector_blk_right.png" />
+        <div class="flex-none bg-gray-light pt-9 pb-10 relative content w-full">
+            <h2>ΟΙ ΑΣΘΕΝΕΙΣ ΜΑΣ <span>ΕΙΠΑΝ</span></h2>
+            <p class="absolute mr-7"><span
+                    class="hidden absolute left-[-84px] top-15 font-bold text-[139px]">“</span>Ένα μεγάλο
+                ευχαριστώ είναι ίσως λίγο για να εκφράσει την ευγνωμοσύνη που νιώθω για τον γιατρό μου Κο
+                Π. Νομικό. Το Σεπτέμβριο του 2009 ανακάλυψα ότι είχα έναν όγκο στον εγκέφαλο.<br>
+                Μετά το αρχικό σοκ, επισκεφτήκαμε με τον σύζυγο μου αρκετούς νευροχειρούργους σε Αθήνα και
+                Θεσσαλονίκη. Πήραμε επίσης γνώμες από δύο γιατρούς του εξωτερικού [...]
+                <br><b>--Ρουθ Π., Αθήνα.</b>
+            </p>
+            <div class="flex gap-10 pt-75">
+                <img src="./images/vector_blk left.png"/>
+                <img src="./images/vector_blk_right.png"/>
+            </div>
         </div>
-      </div>
-      <div class="flex-none bg-gray-dark content pt-9 pb-10 pl-4.5 w-full">
-        <h2>ΔΙΑΔΙΚΑΣΙΑ ΕΝΗΜΕΡΩΣΗΣ <br><span> ΚΑΙ ΣΥΓΚΑΤΑΘΕΣΗΣ ΤΟΥ ΑΣΘΕΝΟΥΣ</span></h2>
-        <p>Η πραγματική ιατρική ενημέρωση και συγκατάθεση του ασθενούς είναι πολύ σημαντική
-          διαδικασία. Γίνεται βήμα – βήμα και ο ασθενής αναλαμβάνει την ευθύνη για μια σειρά
-          αποφάσεων. </p>
-        <button class="flex gap-2 items-center bg-blue-light px-4 py-2 mb-2 mt-7">
-          <a href="#" class="text-white font-thin">ΠΕΡΙΣΣΟΤΕΡΑ</a>
-          <img src="./images/arrow.png" alt="arrow" />
-        </button>
-      </div>
+        <div class="flex-none bg-gray-dark content pt-9 pb-10 pl-4.5 w-full">
+            <h2>ΔΙΑΔΙΚΑΣΙΑ ΕΝΗΜΕΡΩΣΗΣ <br><span> ΚΑΙ ΣΥΓΚΑΤΑΘΕΣΗΣ ΤΟΥ ΑΣΘΕΝΟΥΣ</span></h2>
+            <p>Η πραγματική ιατρική ενημέρωση και συγκατάθεση του ασθενούς είναι πολύ σημαντική
+                διαδικασία. Γίνεται βήμα – βήμα και ο ασθενής αναλαμβάνει την ευθύνη για μια σειρά
+                αποφάσεων. </p>
+            <button class="flex gap-2 items-center bg-blue-light px-4 py-2 mb-2 mt-7">
+                <a href="#" class="text-white font-thin">ΠΕΡΙΣΣΟΤΕΡΑ</a>
+                <img src="./images/arrow.png" alt="arrow"/>
+            </button>
+        </div>
 
     </div>
-    <img src="./images/right-arrow.svg" alt="arrow" id="next-testimonial" class="h-20" />
-  </section>
+    <img src="./images/right-arrow.svg" alt="arrow" id="next-testimonial" class="h-20"/>
+</section>
 
-  <section id="testimonials" class="hidden sm:block flex gradient">
-    <img src="./images/left-arrow.svg" alt="arrow" id="prev-testimonial" class="sm: hidden h-20" />
+<section id="testimonials" class="hidden sm:block flex gradient">
+    <img src="./images/left-arrow.svg" alt="arrow" id="prev-testimonial" class="sm: hidden h-20"/>
     <div class="max-w-[980px] mx-auto overflow-hidden">
-      <div id="slider-testimonials" class="grid grid-cols-3 min-w-[640px]">
+        <div id="slider-testimonials" class="grid grid-cols-3 min-w-[640px]">
 
-        <div class="bg-gray-light col-span-2 pt-9 pb-10 relative content">
-          <h2>ΟΙ ΑΣΘΕΝΕΙΣ ΜΑΣ <span>ΕΙΠΑΝ</span></h2>
-          <p class="absolute ml-21 mr-8"><span
-              class="absolute left-[-84px] top-15 font-bold text-[139px]">“</span>Ένα μεγάλο
-            ευχαριστώ είναι ίσως λίγο για να εκφράσω την ευγνωμοσύνη που νιώθω για τον γιατρό μου Κο
-            Π. Νομικό.
-            Το Σεπτέμβριο του 2009 ανακάλυψα ότι είχα έναν όγκο στον εγκέφαλο.<br>
-            Μετά το αρχικό σοκ, επισκεφτήκαμε με τον σύζυγο μου αρκετούς νευροχειρούργους σε Αθήνα
-            και Θεσσαλονίκη.
-            Πήραμε επίσης γνώμες από δύο γιατρούς του εξωτερικού [...]
-            <br><b>--Ρουθ Π., Αθήνα.</b>
-          </p>
-          <div class="flex gap-10 sm:pt-70 md:pt-50 pl-21">
-            <img src="./images/vector_blk left.png" />
-            <img src="./images/vector_blk_right.png" />
-          </div>
+            <div class="bg-gray-light col-span-2 pt-9 pb-10 relative content">
+                <h2>ΟΙ ΑΣΘΕΝΕΙΣ ΜΑΣ <span>ΕΙΠΑΝ</span></h2>
+                <p class="absolute ml-21 mr-8"><span
+                        class="absolute left-[-84px] top-15 font-bold text-[139px]">“</span>Ένα μεγάλο
+                    ευχαριστώ είναι ίσως λίγο για να εκφράσω την ευγνωμοσύνη που νιώθω για τον γιατρό μου Κο
+                    Π. Νομικό.
+                    Το Σεπτέμβριο του 2009 ανακάλυψα ότι είχα έναν όγκο στον εγκέφαλο.<br>
+                    Μετά το αρχικό σοκ, επισκεφτήκαμε με τον σύζυγο μου αρκετούς νευροχειρούργους σε Αθήνα
+                    και Θεσσαλονίκη.
+                    Πήραμε επίσης γνώμες από δύο γιατρούς του εξωτερικού [...]
+                    <br><b>--Ρουθ Π., Αθήνα.</b>
+                </p>
+                <div class="flex gap-10 sm:pt-70 md:pt-50 pl-21">
+                    <img src="./images/vector_blk left.png"/>
+                    <img src="./images/vector_blk_right.png"/>
+                </div>
+            </div>
+            <div class=" bg-gray-dark w-full col-span-1 content pt-9 pb-10 pl-4.5">
+                <h2>ΔΙΑΔΙΚΑΣΙΑ ΕΝΗΜΕΡΩΣΗΣ <br><span> ΚΑΙ ΣΥΓΚΑΤΑΘΕΣΗΣ ΤΟΥ ΑΣΘΕΝΟΥΣ</span></h2>
+                <p>Η πραγματική ιατρική ενημέρωση και συγκατάθεση του ασθενούς είναι πολύ σημαντική
+                    διαδικασία. Γίνεται βήμα – βήμα και ο ασθενής αναλαμβάνει την ευθύνη για μια σειρά
+                    αποφάσεων. </p>
+                <button
+                        class="mb-2 mt-7 sm:mb-0 flex gap-2 items-center bg-blue-light px-4 sm:px-5 py-2 sm:py-2.5">
+                    <a href="#" class="text-white font-thin">ΠΕΡΙΣΣΟΤΕΡΑ</a>
+                    <img src="./images/arrow.png" alt="arrow"/>
+                </button>
+            </div>
         </div>
-        <div class=" bg-gray-dark w-full col-span-1 content pt-9 pb-10 pl-4.5">
-          <h2>ΔΙΑΔΙΚΑΣΙΑ ΕΝΗΜΕΡΩΣΗΣ <br><span> ΚΑΙ ΣΥΓΚΑΤΑΘΕΣΗΣ ΤΟΥ ΑΣΘΕΝΟΥΣ</span></h2>
-          <p>Η πραγματική ιατρική ενημέρωση και συγκατάθεση του ασθενούς είναι πολύ σημαντική
-            διαδικασία. Γίνεται βήμα – βήμα και ο ασθενής αναλαμβάνει την ευθύνη για μια σειρά
-            αποφάσεων. </p>
-          <button
-            class="mb-2 mt-7 sm:mb-0 flex gap-2 items-center bg-blue-light px-4 sm:px-5 py-2 sm:py-2.5">
-            <a href="#" class="text-white font-thin">ΠΕΡΙΣΣΟΤΕΡΑ</a>
-            <img src="./images/arrow.png" alt="arrow" />
-          </button>
-        </div>
-      </div>
     </div>
-    <img src="./images/right-arrow.svg" alt="arrow" id="next-testimonial" class="sm:hidden h-20" />
-  </section>
+    <img src="./images/right-arrow.svg" alt="arrow" id="next-testimonial" class="sm:hidden h-20"/>
+</section>
 
-  <section id="info">
+<section id="info">
     <div class=" max-w-[980px] mx-auto sm:flex py-10 sm:px-0 justify-between">
-      <div class="content sm:w-[33%] pb-5 sm:justify-items-start">
-        <h2>ΠΛΗΡΟΦΟΡΙΕΣ <br><span>ΓΙΑ ΤΟΝ ΑΣΘΕΝΗ</span></h2>
-        <p class="text-gray-lighter">Κατεβάστε τα ενημερωτικά μας έντυπα για την δική σας
-          πληροφόρηση.</p>
-        <div class="flex gap-10 pt-2">
-          <img src="./images/vector_blk left.png" />
-          <img src="./images/vector_blk_right.png" />
-        </div>
-      </div>
-
-      <div class="flex justify-self-center gap-1 sm:gap-3 md:gap-5">
-
-        <div class="relative w-full">
-          <img class="w-[150px]" src="./images/mag-brain-tumors.jpg" alt="ΟΓΚΟΙ ΕΓΚΕΦΑΛΟΥ">
-          <div
-            class="absolute w-full text-xs text-white leading-3 py-1.5 px-1.5 sm:py-2 sm:px-3.5 bg-blue-light bottom-3">
-            ΟΓΚΟΙ ΕΓΚΕΦΑΛΟΥ</div>
+        <div class="content sm:w-[33%] pb-5 sm:justify-items-start">
+            <h2>ΠΛΗΡΟΦΟΡΙΕΣ <br><span>ΓΙΑ ΤΟΝ ΑΣΘΕΝΗ</span></h2>
+            <p class="text-gray-lighter">Κατεβάστε τα ενημερωτικά μας έντυπα για την δική σας
+                πληροφόρηση.</p>
+            <div class="flex gap-10 pt-2">
+                <img src="./images/vector_blk left.png"/>
+                <img src="./images/vector_blk_right.png"/>
+            </div>
         </div>
 
-        <div class="relative w-full">
-          <img class="w-[150px]" src="./images/mag-back-pain.jpg" alt="ΠΟΝΟΣ ΣΤΗ ΜΕΣΗ" />
-          <div
-            class="absolute w-full text-xs text-white leading-3 py-1.5 px-1.5 sm:py-2 sm:px-3.5 bg-blue-light bottom-3">
-            ΠΟΝΟΣ ΣΤΗ ΜΕΣΗ</div>
-        </div>
+        <div class="flex justify-self-center gap-1 sm:gap-3 md:gap-5">
 
-        <div class="relative w-full">
-          <img class="w-[150px]" src="./images/mag-diagnostic-tests.jpg"
-            alt="ΔΙΑΓΝΩΣΤΙΚΕΣ ΕΞΕΤΑΣΕΙΣ" />
-          <div
-            class="absolute w-full text-xs text-white leading-3 py-1.5 px-1.5 sm:py-2 sm:px-3.5 bg-blue-light bottom-3">
-            ΔΙΑΓΝΩΣΤΙΚΕΣ ΕΞΕΤΑΣΕΙΣ</div>
-        </div>
+            <div class="relative w-full">
+                <img class="w-[150px]" src="./images/mag-brain-tumors.jpg" alt="ΟΓΚΟΙ ΕΓΚΕΦΑΛΟΥ">
+                <div
+                        class="absolute w-full text-xs text-white leading-3 py-1.5 px-1.5 sm:py-2 sm:px-3.5 bg-blue-light bottom-3">
+                    ΟΓΚΟΙ ΕΓΚΕΦΑΛΟΥ
+                </div>
+            </div>
 
-        <div class="relative w-full">
-          <img class="w-[150px]" src="./images/mag-neuronavigation.jpg"
-            alt="ΕΛΑΧΙΣΤΑ ΠΑΡΕΜΒΑΤΙΚΗ ΣΤΕΡΕΟΤΑΚΤΙΚΗ ΒΙΟΨΙΑ ΕΓΚΕΦΑΛΟΥ ΜΕΣΩ ΝΕΥΡΟΠΛΟΗΓΗΣΗΣ" />
-          <div
-            class="absolute w-full text-xs text-white leading-3 py-1.5 px-1.5 sm:py-2 sm:px-3.5 bg-blue-light bottom-3">
-            ΕΛΑΧΙΣΤΑ ΠΑΡΕΜΒΑΤΙΚΗ ΣΤΕΡΕΟΤΑΚΤΙΚΗ ΒΙΟΨΙΑ ΕΓΚΕΦΑΛΟΥ ΜΕΣΩ ΝΕΥΡΟΠΛΟΗΓΗΣΗΣ</div>
+            <div class="relative w-full">
+                <img class="w-[150px]" src="./images/mag-back-pain.jpg" alt="ΠΟΝΟΣ ΣΤΗ ΜΕΣΗ"/>
+                <div
+                        class="absolute w-full text-xs text-white leading-3 py-1.5 px-1.5 sm:py-2 sm:px-3.5 bg-blue-light bottom-3">
+                    ΠΟΝΟΣ ΣΤΗ ΜΕΣΗ
+                </div>
+            </div>
+
+            <div class="relative w-full">
+                <img class="w-[150px]" src="./images/mag-diagnostic-tests.jpg"
+                     alt="ΔΙΑΓΝΩΣΤΙΚΕΣ ΕΞΕΤΑΣΕΙΣ"/>
+                <div
+                        class="absolute w-full text-xs text-white leading-3 py-1.5 px-1.5 sm:py-2 sm:px-3.5 bg-blue-light bottom-3">
+                    ΔΙΑΓΝΩΣΤΙΚΕΣ ΕΞΕΤΑΣΕΙΣ
+                </div>
+            </div>
+
+            <div class="relative w-full">
+                <img class="w-[150px]" src="./images/mag-neuronavigation.jpg"
+                     alt="ΕΛΑΧΙΣΤΑ ΠΑΡΕΜΒΑΤΙΚΗ ΣΤΕΡΕΟΤΑΚΤΙΚΗ ΒΙΟΨΙΑ ΕΓΚΕΦΑΛΟΥ ΜΕΣΩ ΝΕΥΡΟΠΛΟΗΓΗΣΗΣ"/>
+                <div
+                        class="absolute w-full text-xs text-white leading-3 py-1.5 px-1.5 sm:py-2 sm:px-3.5 bg-blue-light bottom-3">
+                    ΕΛΑΧΙΣΤΑ ΠΑΡΕΜΒΑΤΙΚΗ ΣΤΕΡΕΟΤΑΚΤΙΚΗ ΒΙΟΨΙΑ ΕΓΚΕΦΑΛΟΥ ΜΕΣΩ ΝΕΥΡΟΠΛΟΗΓΗΣΗΣ
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </section>
+</section>
 
 
-  <section id="apps">
+<section id="apps">
     <div class="bg-[url(./images/bar.png)]">
-      <div class="flex max-w-[980px] mx-auto h-20 items-center justify-between">
-        <div class="h4-title w-4/5">
-          <h4 class="font-bold">Κατεβάστε την εφαρμογή <span class="font-thin">του Δρ. Παναγιώτη
+        <div class="flex max-w-[980px] mx-auto h-20 items-center justify-between">
+            <div class="h4-title w-4/5">
+                <h4 class="font-bold">Κατεβάστε την εφαρμογή <span class="font-thin">του Δρ. Παναγιώτη
               Νομικού Νευροχειρούργου</span></h4>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-1 justify-end items-center">
+                <img class="h-7 sm:h-8" src="./images/appstore.png" alt="appstore"/>
+                <img class="h-7 sm:h-8" src="./images/googleplay.png" alt="googleplay"/>
+            </div>
         </div>
-        <div class="flex flex-col sm:flex-row gap-1 justify-end items-center">
-          <img class="h-7 sm:h-8" src="./images/appstore.png" alt="appstore" />
-          <img class="h-7 sm:h-8" src="./images/googleplay.png" alt="googleplay" />
-        </div>
-      </div>
     </div>
-  </section>
+</section>
 
-  <section id="footer-upper">
+<section id="footer-upper">
     <div class="max-w-[980px] mx-auto">
-      <div class="grid grid-cols-1 sm:grid-cols-3 pt-9 pb-10 justify-self-center gap-8 sm:gap-15">
+        <div class="grid grid-cols-1 sm:grid-cols-3 pt-9 pb-10 justify-self-center gap-8 sm:gap-15">
 
-        <div class="col-span-1 blue-line w-full">
-          <h3 class="text-blue-light uppercase font-bold pb-2">Χειρουργικη εγκεφαλου</h3>
-          <ul class="w-xs">
-            <li>
-              <a href="#">Χειρουργικές Τεχνικές</a>
-            </li>
-            <hr>
-            <li>
-              <a href="#">Όγκοι Εγκεφάλου</a>
-            </li>
-            <hr>
-            <li>
-              <a href="#">Υδροκέφαλος</a>
-            </li>
-            <hr>
-            <li>
-              <a href="#">Αγγειακές Παθήσεις</a>
-            </li>
-            <hr>
-            <li>
-              <a href="#">Λειτουργική Νευροχειρουργική</a>
-            </li>
-            <hr>
-            <li>
-              <a href="#">Κακώσεις</a>
-            </li>
-            <hr>
-            <li>
-              <a href="#">Νέες τεχνικές</a>
-            </li>
-            <hr>
-          </ul>
+            <div class="col-span-1 blue-line w-full">
+                <h3 class="text-blue-light uppercase font-bold pb-2">Χειρουργικη εγκεφαλου</h3>
+                <ul class="w-xs">
+                    <li>
+                        <a href="#">Χειρουργικές Τεχνικές</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Όγκοι Εγκεφάλου</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Υδροκέφαλος</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Αγγειακές Παθήσεις</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Λειτουργική Νευροχειρουργική</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Κακώσεις</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Νέες τεχνικές</a>
+                    </li>
+                    <hr>
+                </ul>
 
+            </div>
+            <div class="col-span-1 blue-line w-full">
+                <h3 class="text-blue-light uppercase font-bold pb-2">Χειρουργικη σπονδυλικής στήλης</h3>
+                <ul class="w-xs">
+                    <li>
+                        <a href="#">Γενικές Πληροφορίες</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Οσφυική μικροδισκεκτομή</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Αυχενική μικροδισκεκτομή</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Σπονδυλοδεσία</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Όγκοι σπονδυλικής στήλης και νωτιαίου μυελού</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Νέες τεχνικές</a>
+                    </li>
+                    <hr>
+                </ul>
+            </div>
+            <div class="col-span-1 blue-line w-full">
+                <h3 class="text-blue-light uppercase font-bold pb-2">Ακτινοχειρουργική γ-knife</h3>
+                <ul class="w-xs">
+                    <li>
+                        <a href="#">Τι είναι το γ-κnife;</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Ποιες παθήσεις επιδέχονται γ-knife;</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Ποια είναι τα βήματα της θεραπείας;</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Τι μετεγχειρητική παρακολούθηση χρειάζεται;</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Ποια είναι η διαδικασία έγκρισης της θεραπείας από ασφαλιστικούς
+                            φορείς;</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Τι πρέπει να προσέξω την ημέρα της θεραπείας;</a>
+                    </li>
+                    <hr>
+                </ul>
+            </div>
         </div>
-        <div class="col-span-1 blue-line w-full">
-          <h3 class="text-blue-light uppercase font-bold pb-2">Χειρουργικη σπονδυλικής στήλης</h3>
-          <ul class="w-xs">
-            <li>
-              <a href="#">Γενικές Πληροφορίες</a>
-            </li>
-            <hr>
-            <li>
-              <a href="#">Οσφυική μικροδισκεκτομή</a>
-            </li>
-            <hr>
-            <li>
-              <a href="#">Αυχενική μικροδισκεκτομή</a>
-            </li>
-            <hr>
-            <li>
-              <a href="#">Σπονδυλοδεσία</a>
-            </li>
-            <hr>
-            <li>
-              <a href="#">Όγκοι σπονδυλικής στήλης και νωτιαίου μυελού</a>
-            </li>
-            <hr>
-            <li>
-              <a href="#">Νέες τεχνικές</a>
-            </li>
-            <hr>
-          </ul>
-        </div>
-        <div class="col-span-1 blue-line w-full">
-          <h3 class="text-blue-light uppercase font-bold pb-2">Ακτινοχειρουργική γ-knife</h3>
-          <ul class="w-xs">
-            <li>
-              <a href="#">Τι είναι το γ-κnife;</a>
-            </li>
-            <hr>
-            <li>
-              <a href="#">Ποιες παθήσεις επιδέχονται γ-knife;</a>
-            </li>
-            <hr>
-            <li>
-              <a href="#">Ποια είναι τα βήματα της θεραπείας;</a>
-            </li>
-            <hr>
-            <li>
-              <a href="#">Τι μετεγχειρητική παρακολούθηση χρειάζεται;</a>
-            </li>
-            <hr>
-            <li>
-              <a href="#">Ποια είναι η διαδικασία έγκρισης της θεραπείας από ασφαλιστικούς
-                φορείς;</a>
-            </li>
-            <hr>
-            <li>
-              <a href="#">Τι πρέπει να προσέξω την ημέρα της θεραπείας;</a>
-            </li>
-            <hr>
-          </ul>
-        </div>
-      </div>
     </div>
-  </section>
+</section>
 
-  <section id="footer-bottom" class="bg-gray">
+<section id="footer-bottom" class="bg-gray">
     <div class="mx-auto max-w-[980px] text-white">
-      <div class="flex grid grid-cols-1 sm:grid-cols-2 pt-9 pb-10 gap-4">
-        <div class="flex col-span-1 gap-3 font-thin text-[13px]">
-          <a href="#"> <img class="w-25" src="./images/honcode-certified.png"
-              alt="Πιστοποίηση Honcode"></a>
-          <p>Πληρούμε τις προδιαγραφές του κώδικα δεοντολογίας «Health on the Net» (HON) περί
-            αξιόπιστων πληροφoριών υγείας. Επιβεβαιώστε.</p>
-        </div>
-        <div
-          class="flex flex-col sm:flex-row text-xs sm:text-base col-span-1 justify-self-end justify-between sm:gap-4 capitalize sm:uppercase">
-          <a href="#">Site map</a>
-          <a href="#">Oροι χρήσης </a>
-          <a href="#">Links</a>
-        </div>
+        <div class="flex grid grid-cols-1 sm:grid-cols-2 pt-9 pb-10 gap-4">
+            <div class="flex col-span-1 gap-3 font-thin text-[13px]">
+                <a href="#"> <img class="w-25" src="./images/honcode-certified.png"
+                                  alt="Πιστοποίηση Honcode"></a>
+                <p>Πληρούμε τις προδιαγραφές του κώδικα δεοντολογίας «Health on the Net» (HON) περί
+                    αξιόπιστων πληροφoριών υγείας. Επιβεβαιώστε.</p>
+            </div>
+            <div
+                    class="flex flex-col sm:flex-row text-xs sm:text-base col-span-1 justify-self-end justify-between sm:gap-4 capitalize sm:uppercase">
+                <a href="#">Site map</a>
+                <a href="#">Oροι χρήσης </a>
+                <a href="#">Links</a>
+            </div>
 
-        <div class="footer-bottom col-span-2 font-thin text-xs">
-          <p>© 2015 Παναγιώτης Νομικός - Το περιεχόμενο της ιστοθέσης είναι μόνο για ενημερωτικό
-            σκοπό και δεν θα πρέπει να αντικαθιστά οποιαδήποτε ιατρική συμβουλή, διάγνωση ή και
-            θεραπεία που χορηγείται από τον γιατρό σας ή από τον εξειδικευμένο επιστήμονα υγείας.
-            Απαγορεύεται η αναπαραγωγή, μεταβίβαση, διανομή ή αποθήκευση μέρους ή του συνόλου του
-            περιεχομένου σε οποιαδήποτε μορφή, χωρίς την προηγούμενη γραπτή συγκατάθεση του κ.
-            Παναγιώτη Νομικού.</p>
+            <div class="footer-bottom col-span-2 font-thin text-xs">
+                <p>© 2015 Παναγιώτης Νομικός - Το περιεχόμενο της ιστοθέσης είναι μόνο για ενημερωτικό
+                    σκοπό και δεν θα πρέπει να αντικαθιστά οποιαδήποτε ιατρική συμβουλή, διάγνωση ή και
+                    θεραπεία που χορηγείται από τον γιατρό σας ή από τον εξειδικευμένο επιστήμονα υγείας.
+                    Απαγορεύεται η αναπαραγωγή, μεταβίβαση, διανομή ή αποθήκευση μέρους ή του συνόλου του
+                    περιεχομένου σε οποιαδήποτε μορφή, χωρίς την προηγούμενη γραπτή συγκατάθεση του κ.
+                    Παναγιώτη Νομικού.</p>
+            </div>
         </div>
-      </div>
     </div>
-  </section>
+</section>
 
 </body>
 <script src="./index.js" defer></script>
