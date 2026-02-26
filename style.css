@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: Oriya-MN;
-  src: url("./fonts/Oriya-MN-Bold.otf");
+  src: url("./fonts/Oriya-MN-Bold.ttf");
   font-weight: bold;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .content p {
-  font-weight: light;
+  font-weight: lighter;
   font-size: 14px;
   line-height: 20px;
   color: #58585a;
@@ -84,7 +84,7 @@
 
 
 .principles p {
-  padding top: -10px;
+  padding-top: -10px;
   /* transform: translateY(30px); */
 }
 
@@ -111,7 +111,7 @@
   }
 
   .content p {
-    font-weight: light;
+    font-weight: lighter;
     font-size: 15px;
     line-height: 20px;
     color: #58585a;
@@ -137,7 +137,6 @@
   }
 
 
-
 /* -----768px----- */
 @media (min-width: 768px) {
   .content h2 {
@@ -155,7 +154,7 @@
   }
 
   .content p {
-    font-weight: light;
+    font-weight: lighter;
     font-size: 15px;
     line-height: 22px;
     color: #58585a;
@@ -179,6 +178,5 @@
     width: 300px;
     padding: 6px 0 0 0;
   }
-
 }
 
